@@ -1,0 +1,41 @@
+To achieve a highly modular and well-structured project like the document_store we've developed, you could use a prompt like this:
+
+"I need to create a new Python project with a focus on modularity, separation of concerns, and best practices in software engineering. The project should be structured as follows:
+
+1. Core functionality divided into separate modules, each with a single responsibility.
+2. Clear interfaces defined for each module using abstract base classes.
+3. Implementation details hidden behind these interfaces.
+4. A factory pattern for creating instances of the main components.
+5. Utility functions separated into their own module.
+6. Configuration handling isolated from the main logic.
+7. Error handling implemented throughout the system.
+8. A testing structure that allows for unit tests of individual components.
+
+The project should also follow these principles:
+
+- Dependency Injection: Components should receive their dependencies rather than creating them.
+- Open/Closed Principle: The system should be open for extension but closed for modification.
+- Don't Repeat Yourself (DRY): Avoid code duplication by abstracting common functionality.
+- SOLID principles should be applied throughout the design.
+
+Please provide a detailed project structure, including:
+
+1. A list of all necessary modules and their responsibilities.
+2. The key classes and functions that should be implemented in each module.
+3. How these modules will interact with each other.
+4. A suggested directory structure for the project.
+5. Any design patterns that should be applied.
+
+The project should be flexible enough to allow for easy addition of new features or changing of implementation details without affecting the overall structure.
+
+As a concrete example, one of the core functionalities should be a document store that can work with different backend storage systems (like local file storage or a database). Show how this would be implemented in the proposed structure."
+
+This prompt:
+1. Emphasizes modularity and separation of concerns.
+2. Specifies key software engineering principles to follow.
+3. Asks for a detailed breakdown of the project structure.
+4. Requests information on how modules will interact.
+5. Emphasizes flexibility and extensibility.
+6. Provides a specific example (document store) to guide the design.
+
+By using a prompt like this, you're more likely to get a comprehensive, well-structured design that follows best practices in software engineering, similar to the document_store we developed.

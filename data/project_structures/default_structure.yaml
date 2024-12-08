@@ -1,0 +1,8 @@
+folders: |
+  <project_name>/src/
+  <project_name>/tests/
+  <project_name>/docs/
+  <project_name>/.git/
+  <project_name>/.gitignore
+  <project_name>/requirements.txt
+  <project_name>/README.md
